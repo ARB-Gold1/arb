@@ -39,7 +39,7 @@ const Header = () => {
                     initial={{opacity: 0}} 
                     animate={{opacity: 1}}
                     exit={{opacity: 0}} 
-                    className="md:hidden z-[9] absolute p-[20px] top-0 right-0 flex flex-col h-screen w-[400px] bg-primaryText">
+                    className="md:hidden z-[9] absolute md:p-[20px] p-[35px] top-0 right-0 flex flex-col h-screen w-[400px] bg-primaryText">
                     <MdOutlineClose 
                     onClick={() => setShowMenu(false)} 
                     className="text-secondaryText bg-primary rounded-md p-[3px] text-[2rem] cursor-pointer" />
@@ -50,7 +50,7 @@ const Header = () => {
                             <NavLink styles="text-secondaryText" link={link} key={link.id} />
                         )) }
                         </ul>
-                        <div className="flex flex-col items-center gap-[20px]">
+                        <div className="flex flex-col mt-[20px] items-center gap-[20px]">
                             <CustomButton title="Launch App" styles="bg-primary text-secondaryText border-none outline-none" />
                             <CustomButton title="Connect Wallet" styles="bg-transparent border-[2px] border-[#CEFF03] text-secondaryText" />
                         </div>
