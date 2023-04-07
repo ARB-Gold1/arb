@@ -6,7 +6,7 @@ const Faq = () => {
     console.log(faqs)
 
   return (
-    <div className='min:h-[800px] md:pt-[0] md:h-[900px] h-[850px] bg-secondary '>
+    <div className='min-h-[900px] md:pt-[0] md:h-[900px] h-[max-content] bg-secondary md:py-[0] py-[20px] '>
         <div className='w-[80%] h-full flex flex-col md:pt-[0] pt-[20px] gap-y-[30px] mx-auto'>
             <div className='flex flex-col items-start gap-[20px]'>
                 <span className='text-primaryText border-[1px] border-[#fff] font-roboto rounded-[20px] p-[10px] font-medium md:text-[16px] text-[14px]'> Frequently asked questions </span>

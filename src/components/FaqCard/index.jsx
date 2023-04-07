@@ -19,7 +19,7 @@ const FaqCard = ({faq: {question, answer}}) => {
         </div>
 
         { expanded && (
-            <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} className='bg-[gray] p-[20px] rounded-[10px]'>
+            <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} className='bg-[gray] z-10 p-[20px] rounded-[10px]'>
                 <p className='text-primaryText font-roboto font-normal text-[16px]'> {answer} </p>
             </motion.div>
         ) }
